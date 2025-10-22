@@ -13,13 +13,13 @@
     .contact-left {
         display: flex;
         flex-direction: column;
-        width: 300px;
+        width: 30%;
     }
 
     .contact-center {
         display: flex;
         flex-direction: column;
-        width: 300px;
+        width: 30%;
     }
 
     .contact-right {
@@ -30,7 +30,7 @@
         .contact-form {
             display: flex;
             flex-direction: column;
-            width: 300px;
+            width: 30%;
 
             input, textarea {
                 margin-bottom: 10px;
@@ -54,4 +54,25 @@
             }
         }
     }
+}
+
+@media (max-width: 600px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    padding: 0;
+    margin: 0;
+
+    .contact-left,
+    .contact-center,
+    .contact-right {
+      width: 80vw;
+    }
+
+    .contact-right .contact-form {
+      width: 80vw;
+    }
+  }
 }

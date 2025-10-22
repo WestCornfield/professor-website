@@ -63,3 +63,33 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .public-reports {
+    padding: 10px 0;
+    width: 90vw;
+  }
+
+  .article {
+    padding: 10px;
+  }
+
+  .article .article-contents {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    .article-visual {
+      max-width: 90vw;
+      max-height: 300px;
+    }
+  }
+
+  .article h3,
+  .article h4,
+  .article .summary,
+  .article .article-link {
+    text-align: center;
+    float: none;
+  }
+}

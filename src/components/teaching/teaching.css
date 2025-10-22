@@ -12,3 +12,21 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .teaching {
+        padding: 10px;
+        width: 90vw;
+
+        .teaching-statement {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            .tamu-headshot .tamu-headshot-img {
+                max-width: 90vw;
+                max-height: 300px;
+            }
+        }
+    }
+}

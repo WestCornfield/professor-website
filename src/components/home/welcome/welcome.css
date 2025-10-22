@@ -17,3 +17,18 @@
     max-height: 300px;
     border-radius: 20px;
 }
+
+@media (max-width: 600px) {
+    .welcome {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+        width: 90vw;
+    }
+
+    .headshot {
+        max-width: 90vw;
+        max-height: 300px;
+    }
+}
