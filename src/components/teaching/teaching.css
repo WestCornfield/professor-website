@@ -1,0 +1,14 @@
+.teaching {
+    padding: 20px;
+    background-color: #e9e6e1;
+
+    .teaching-statement {
+        display: flex;
+        flex-direction: row;
+
+        .tamu-headshot .tamu-headshot-img {
+            max-width: 400px;
+            max-height: 300px;
+        }
+    }
+}

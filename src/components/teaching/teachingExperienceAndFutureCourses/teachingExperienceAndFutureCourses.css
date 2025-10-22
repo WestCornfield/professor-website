@@ -1,0 +1,13 @@
+.teaching-experience-and-future-courses {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    th, tr, td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: left;
+    }
+}

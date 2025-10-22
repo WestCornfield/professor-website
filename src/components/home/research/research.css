@@ -1,0 +1,65 @@
+.public-reports {
+  background-color: #e9e6e1;
+  padding: 20px 0;
+
+  .public-reports-title {
+    padding-left: 20px;
+  }
+
+  .article {
+    background-color: #e9e6e1;
+    padding: 20px;
+  }
+
+  .article:nth-child(even) {
+    float: left;
+
+    h3,h4,.summary {
+      text-align: left;
+    }
+
+    .article-link {
+      float: left;
+    }
+
+    .article-contents {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 50px;
+
+      .article-visual {
+        max-width: 400px;
+        max-height: 150px;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .article:nth-child(odd) {
+    float: right;
+
+    h3,
+    h4,
+    .summary {
+      text-align: right;
+    }
+
+    .article-link {
+      float: right;
+    }
+
+    .article-contents {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      gap: 50px;
+
+      .article-visual {
+        max-width: 400px;
+        max-height: 300px;
+        margin-top: 10px;
+      }
+    }
+  }
+}

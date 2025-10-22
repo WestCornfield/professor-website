@@ -1,0 +1,19 @@
+.welcome {
+    background-color: #e9e6e1;
+    padding: 10px 20px 20px 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.welcome-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.headshot {
+    max-width: 400px;
+    max-height: 300px;
+    border-radius: 20px;
+}
