@@ -1,5 +1,5 @@
 import "./contact.css";
-import GSHeadshot from "../../resources/images/headshots_for_gs_profile.jpeg";
+import GSHeadshot from "../../resources/images/headshots_for_gs_profile.jpg";
 
 function Contact() {
     function submitForm(e) {
