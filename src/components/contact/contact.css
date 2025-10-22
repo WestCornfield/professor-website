@@ -13,13 +13,13 @@
     .contact-left {
         display: flex;
         flex-direction: column;
-        width: 30%;
+        width: 300px;
     }
 
     .contact-center {
         display: flex;
         flex-direction: column;
-        width: 30%;
+        width: 300px;
     }
 
     .contact-right {
@@ -30,7 +30,7 @@
         .contact-form {
             display: flex;
             flex-direction: column;
-            width: 30%;
+            width: 300px;
 
             input, textarea {
                 margin-bottom: 10px;
